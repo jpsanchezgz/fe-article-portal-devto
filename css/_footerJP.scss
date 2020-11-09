@@ -2,12 +2,6 @@
     background-color: $footer-bg-color;
     font-family: 'Roboto', sans-serif;
     
-
-    .container-footer {
-        height: 50%;
-        
-
-    }
 }
 
 .social-media-items {
@@ -23,9 +17,6 @@
     }
 }
 
-.logito {
-    
-}
 
 .footer-info {
     font-size: smaller;
@@ -108,5 +99,44 @@
 
    .footer-lists {
            padding: 0;
-   }
+        }
+}
+
+
+
+  .my-stuff-container-footer {
+      background-color: white;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+
+      
+    .item-footer {
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 50px;
+        
+
+        .heart:hover {
+            background-color: #ffa8a8;
+            color: #ff3333; 
+        }
+
+        .horse:hover {
+            background-color: #99c3bb;
+            color: #19efc7;
+        }
+
+        .bookmark:hover {
+            background-color: #6a76d1;
+            color: #000be5;
+        }
+
+        .dots:hover {
+            background-color: #777777;
+        }
+    }
   }

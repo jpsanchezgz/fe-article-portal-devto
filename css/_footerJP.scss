@@ -50,7 +50,8 @@
     
 
     li {
-        
+        color: #252525;
+        text-decoration: none;
 
         &:hover {
             background-color: rgb(184, 184, 184);
@@ -81,9 +82,10 @@
     position: relative;
     bottom: 15%;
     transition: 0.5s;
+    transform-origin: center top;
 
     &:hover {
-        transform: rotate(-20deg);
+        transform: rotate(-3deg);
     }
 }
 

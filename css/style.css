@@ -59,6 +59,11 @@
   list-style: none;
 }
 
+.footer-lists li {
+  color: #252525;
+  text-decoration: none;
+}
+
 .footer-lists li:hover {
   background-color: #b8b8b8;
 }
@@ -89,11 +94,13 @@
   bottom: 15%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
 }
 
 .pet-image:hover {
-  -webkit-transform: rotate(-20deg);
-          transform: rotate(-20deg);
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
 }
 
 .columnas-listas {
@@ -155,11 +162,6 @@
       -ms-flex-align: center;
           align-items: center;
   color: #202428;
-}
-
-.my-stuff-container .item .icon-span {
-  padding: 0.5rem 0.5rem;
-  border-radius: 50%;
 }
 
 .my-stuff-container .item .heart:hover {

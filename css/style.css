@@ -8,10 +8,120 @@
 
 .container-footer-fluido {
   background-color: #d3d6da;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container-footer-fluido .container-footer {
-  height: 50vh;
+  height: 50%;
+}
+
+.social-media-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social-media-items .fab {
+  color: gray;
+}
+
+.social-media-items .fab:hover {
+  color: #3f3f3f;
+}
+
+.footer-info {
+  font-size: smaller;
+}
+
+.light-p {
+  color: gray;
+}
+
+.light-p a {
+  text-decoration: none;
+  color: #323ebe;
+}
+
+.footer-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.footer-lists li:hover {
+  background-color: #b8b8b8;
+}
+
+.footer-lists li a {
+  color: #252525;
+  text-decoration: none;
+}
+
+.footer-lists li a:hover {
+  color: #323ebe;
+}
+
+.list3 {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.pet-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+  bottom: 15%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pet-image:hover {
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.columnas-listas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 990px) {
+  .footer-lists a {
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .columnas-listas {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .footer-lists {
+    padding: 0;
+  }
 }
 
 .my-stuff-container {

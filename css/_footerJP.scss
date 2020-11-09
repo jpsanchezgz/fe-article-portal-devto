@@ -1,7 +1,110 @@
 .container-footer-fluido {
     background-color: $footer-bg-color;
+    font-family: 'Roboto', sans-serif;
+    
 
     .container-footer {
-        height: 50vh;
+        height: 50%;
+        
+
     }
 }
+
+.social-media-items {
+    display: flex;
+    justify-content: space-around;
+    
+    .fab {
+        color: gray;
+
+        &:hover {
+            color: #3f3f3f;
+        }
+    }
+}
+
+.logito {
+    
+}
+
+.footer-info {
+    font-size: smaller;
+}
+
+.light-p {
+    color: gray;
+    
+    a {
+        text-decoration: none;
+        color: $anchor-link-color-hover;
+    }
+}
+
+.footer-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    
+    
+
+    li {
+        
+
+        &:hover {
+            background-color: rgb(184, 184, 184);
+        }
+
+        a {
+            color: #252525;
+            text-decoration: none;
+            
+
+            &:hover {
+                color: $anchor-link-color-hover;
+            }
+        }
+        
+    }
+}
+
+.list3 {
+
+    justify-content: flex-start;
+    
+}
+
+.pet-image {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 15%;
+    transition: 0.5s;
+
+    &:hover {
+        transform: rotate(-20deg);
+    }
+}
+
+.columnas-listas {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 990px) {
+    .footer-lists a {
+      font-size: smaller;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+   .columnas-listas {
+       flex-wrap: wrap;
+       justify-content: flex-start;
+   }
+
+   .footer-lists {
+           padding: 0;
+   }
+  }

@@ -11,14 +11,38 @@
 </head>
 <body>
 
-    <!-- Este es el elemento fixed (header) en el que va a trabajr Cris -->
+    <!-- Este es el elemento fixed (header) en el que va a trabajar Cris -->
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row header-c sticky-top">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-md-7 col-lg-6 border border-success"></div>
-                <div class="col-6 col-md-5 col-lg-6 border border-success"></div>
+                <div class="col-6 col-md-7 col-lg-6 nav-container">
+                    <div class="header-logo"> <img src="imagesJP/devto.svg" width="50px" height="40px" alt="dev-logo">
+                    </div>
+                    <input class="ml-2 w-75" type="text" id="nav-search" placeholder="Search..."> </input>
+                </div>
+
+                <div class="col-6 col-md-5 col-lg-6 nav-container2">
+                <a href="#" class="button mr-4 d-none d-md-block "> Write a post</a>
+                    <i class="far fa-comment mr-2"></i>
+                    <i class="far fa-bell mr-2"></i>        
+                        <div class="dropdown">
+                        <button  class="btn dropdown-toggle devto-dropdown" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="profile-pic rounded-circle p-2 mr-3" src="imagesJP/juanpablo-profile-pic.jpg" alt="random-picture">
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item border" href="#">@juanpablosg1</a>
+                          <a class="dropdown-item" href="#">Dashboard</a>
+                          <a class="dropdown-item" href="#">Write a Post</a>
+                          <a class="dropdown-item" href="#">Reading list</a>
+                          <a class="dropdown-item" href="#">Settings</a>
+                          <a class="dropdown-item" href="#">Key links</a>
+                          <a class="dropdown-item border" href="#">Sign Out</a>
+
+                        </div>
+                      </div>
+                </div>
             </div>
         </div>
     </div>

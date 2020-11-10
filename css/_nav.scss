@@ -1,0 +1,59 @@
+.header-c{ 
+	max-width: 100wv;
+    margin: auto;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+.button {
+	
+	background-color:#3b49df;
+	border-radius:5px;
+	border:1px solid #3b49df;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	margin: 0px 8px 0px 0px;
+	padding:4px 8px;
+	text-decoration:none;	
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+.profile-pic {
+	width: 48px;
+	height: 48px;
+}       
+.nav-container {
+	
+	display: flex;
+	justify-content: flex-start;	
+    align-items: center;
+    margin-left: auto;
+}
+.nav-container2{
+	height: var(--header-height);
+	display: flex;
+	justify-content: flex-end;	
+    align-items: center;
+	margin-left: auto;
+	.devto-dropdown{ 
+		&.dropdown-toggle::after {
+			display: none;
+			}
+			&:focus{
+				outline: none; 
+				box-shadow: none;
+			}
+	}
+}

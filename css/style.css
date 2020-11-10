@@ -217,4 +217,176 @@
 .my-stuff-container .item .dots:hover {
   background-color: #777777;
 }
+
+/*main inicio*/
+article {
+  background-color: white;
+}
+
+/*header articulo*/
+.web {
+  background-color: #7200af;
+  color: white;
+}
+
+.type {
+  background-color: #000aa3;
+  color: white;
+}
+
+.prf-random {
+  height: 6vh;
+  width: 6vh;
+}
+
+.profile-random {
+  height: 5vh;
+  width: 5vh;
+}
+
+.profile-article {
+  font-size: .8em;
+}
+
+.p-rdm {
+  color: black;
+}
+
+/*fin header articulo*/
+.art-today {
+  text-align: justify;
+}
+
+/*cuerpo articulo*/
+.article-main, .art-today {
+  padding: 5%;
+}
+
+/*fin cuerpo articulo*/
+/*comentarios*/
+.discussion {
+  border: 0.1em solid #d1d1d1;
+  padding: 5%;
+}
+
+.read-next {
+  border: 0.1em solid #d1d1d1;
+  background-color: #eaeaea;
+  padding: 7%;
+  margin-top: 1.5%;
+}
+
+.profile-comment {
+  height: 4vh;
+  width: 4vh;
+}
+
+.inner-comment {
+  border: 0.1em solid #d1d1d1;
+  margin-bottom: 1%;
+}
+
+.header-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-gruop {
+  display: block;
+}
+
+.action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2%;
+}
+
+a {
+  color: gray;
+}
+
+.profile-next {
+  color: black;
+}
+
+.next-article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-name, .time-post {
+  display: block;
+  color: black;
+}
+
+.profile-name {
+  font-weight: bolder;
+}
+
+.time-post {
+  color: darkgray;
+}
+
+#discussion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.p-r-d {
+  width: 4vh;
+  height: 4vh;
+}
+
+.add-comments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.form-control {
+  border: 0.1em solid #d1d1d1;
+}
+
+.body-comment {
+  padding: 2%;
+}
+
+/*fi comentarios*/
+/*main final*/
+/*aside 2 article*/
+.aside-2 {
+  list-style: none;
+}
+
+.a-2, .art-autor {
+  padding: 5%;
+}
+
+.info-xtra-autor, .art-autor {
+  background-color: #fafafa;
+  padding: 5%;
+}
+
+/*aside 2 article*/
 /*# sourceMappingURL=style.css.map */
